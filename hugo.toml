@@ -1,0 +1,11 @@
+baseurl = "http://localhost:1313/"
+title = "融禾科技"
+languageCode = "zh"
+defaultContentLanguage = "zh"
+theme = 'hugo-universal-theme'
+
+
+# Hugo Markdown 配置，https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup.goldmark.renderer]
+    unsafe = true # 允许 markdown 中使用 html
+      
