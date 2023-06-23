@@ -1,5 +1,7 @@
-{{ if isset .Site.Params "goods" }} {{ if .Site.Params.goods.enable }} {{ if
-isset .Site.Data "goods" }} {{ if gt (len .Site.Data.goods) 0 }}
+{{ if isset .Site.Params "goods" }} 
+{{ if .Site.Params.goods.enable }} 
+{{ if isset .Site.Data "goods" }} 
+{{ if gt (len .Site.Data.goods) 0 }}
 <section class="bar background-white">
   <div class="container">
     <div class="heading text-center">
@@ -7,31 +9,27 @@ isset .Site.Data "goods" }} {{ if gt (len .Site.Data.goods) 0 }}
     </div>
     <p class="lead">{{ .Site.Params.goods.subtitle | markdownify }}</p>
 
-    {{ $elements := default 3 .Site.Params.goods.cols }} {{ $goods := sort
-    .Site.Data.goods "weight" }} {{ $total_rows := div (len $goods) $elements }}
-    {{ if gt (mod (len $goods) $elements) 0 }} {{ $total_rows = add $total_rows
-    1 }} {{ end }} {{ range $i, $sequence := seq $total_rows }}
+    {{ $elements := default 3 .Site.Params.goods.cols }} 
+    {{ $goods := sort .Site.Data.goods "weight" }} 
+    {{ $total_rows := div (len $goods) $elements }}
+    {{ if gt (mod (len $goods) $elements) 0 }} 
+      {{ $total_rows = add $total_rows 1 }} 
+    {{ end }} 
+    {{ range $i, $sequence := seq $total_rows }}
 
-    <div
-      class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}"
-    >
-      {{ range $j, $sequence2 := (seq $elements) }} {{ $feature_index := add
-      (mul $i $elements) $j }} {{ if lt $feature_index (len $goods) }} {{
-      $element := index $goods $feature_index }}
+    <div class="row row-{{ $i }} row-{{ if eq (mod $i 2) 0 }}odd{{ else }}even{{ end }}">
+      {{ range $j, $sequence2 := (seq $elements) }} 
+      {{ $feature_index := add (mul $i $elements) $j }} 
+      {{ if lt $feature_index (len $goods) }} 
+      {{ $element := index $goods $feature_index }}
 
-      <div
-        class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}"
-      >
+      <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
         <div class="box-simple">
           {{ with $element.url }}
           <a href="{{ $element.url }}">
             {{ end }}
             <div class="image" style="overflow: hidden">
-              <img
-                src="{{ $element.image | relURL }}"
-                class="img-responsive"
-                alt=""
-              />
+              <img src="{{ $element.image | relURL }}" class="img-responsive" alt="" />
             </div>
             {{ with $element.url }}
           </a>
@@ -45,4 +43,7 @@ isset .Site.Data "goods" }} {{ if gt (len .Site.Data.goods) 0 }}
     {{ end }}
   </div>
 </section>
-{{ end }} {{ end }} {{ end }} {{ end }}
+{{ end }} 
+{{ end }} 
+{{ end }} 
+{{ end }}
