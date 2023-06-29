@@ -345,8 +345,8 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = """<p>全系列触控商显整机生产厂家
-    <br> 产品全 | 款式新 | 技术强 | 质量优 | 服务款
-    <br> 全球首推-以换代修, 30天无理由承诺
+    <br>产品全 | 款式新 | 技术强 | 质量优 | 服务款
+    <br>全球首推-以换代修, 30天无理由承诺
     </p>"""
     copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有"
 

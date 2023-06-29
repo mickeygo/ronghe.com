@@ -1,4 +1,4 @@
-baseurl = "http://localhost:1313/"
+baseurl = "http://0.0.0.0:1313/"
 title = "融禾科技"
 languageCode = "zh"
 defaultContentLanguage = "zh"

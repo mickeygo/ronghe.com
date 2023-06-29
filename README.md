@@ -50,4 +50,4 @@ CentOS8以上需要安装 => `yum install epel-release`
 
 查看已存在的 tmux => `tmux ls`
 
-重新进入 => `tmux -a -t [终端名称]`
+重新进入 => `tmux a -t [终端名称]`
