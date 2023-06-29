@@ -136,8 +136,8 @@ pluralizelisttitles = false
     weight     = 4
 
 [[menu.main]]
-    name       = "长期合作单位"
-    identifier = "section.longtermpartner"
+    name       = "部分长期合作单位"
+    identifier = "section.partner.longterm"
     url        = "/"
     weight     = 1
     parent     = "menu.partner"
@@ -147,11 +147,35 @@ pluralizelisttitles = false
     name       = "上海科大智能（上市公司）"
     url        = "/"
     weight     = 1
-    parent     = "section.longtermpartner"
+    parent     = "section.partner.longterm"
 
 [[menu.main]]
-    name       = "施工项目"
-    identifier = "section.constructionproject"
+    name       = "合肥永乾智能控制技术有限公司"
+    url        = "/"
+    weight     = 2
+    parent     = "section.partner.longterm"
+
+[[menu.main]]
+    name       = "昆山动爵健身"
+    url        = "/"
+    weight     = 3
+    parent     = "section.partner.longterm"
+
+[[menu.main]]
+    name       = "连云港卫生管理局"
+    url        = "/"
+    weight     = 4
+    parent     = "section.partner.longterm"    
+
+[[menu.main]]
+    name       = "响水县教育局"
+    url        = "/"
+    weight     = 5
+    parent     = "section.partner.longterm"
+
+[[menu.main]]
+    name       = "部分施工项目"
+    identifier = "section.partner.construction"
     url        = "/"
     weight     = 2
     parent     = "menu.partner"
@@ -161,7 +185,55 @@ pluralizelisttitles = false
     name       = "福建巨电新能源股份有限公司弱电施工"
     url        = "/"
     weight     = 1
-    parent     = "section.constructionproject"
+    parent     = "section.partner.construction"
+
+[[menu.main]]
+    name       = "无锡上汽大通弱电施工"
+    url        = "/"
+    weight     = 2
+    parent     = "section.partner.construction"
+
+[[menu.main]]
+    name       = "镇江力信网络整改弱电施工"
+    url        = "/"
+    weight     = 3
+    parent     = "section.partner.construction"
+
+[[menu.main]]
+    name       = "河北唐山国轩电池厂弱电施工"
+    url        = "/"
+    weight     = 4
+    parent     = "section.partner.construction"
+
+[[menu.main]]
+    name       = "福建武夷山巨电监控设备安装"
+    url        = "/"
+    weight     = 5
+    parent     = "section.partner.construction"
+
+[[menu.main]]
+    name       = "江西上饶瑞华网络布线施工"
+    url        = "/"
+    weight     = 6
+    parent     = "section.partner.construction"
+
+[[menu.main]]
+    name       = "江西少绕星盈弱电施工项目"
+    url        = "/"
+    weight     = 7
+    parent     = "section.partner.construction"                    
+
+[[menu.main]]
+    name       = "常州太平洋"
+    url        = "/"
+    weight     = 8
+    parent     = "section.partner.construction"
+
+[[menu.main]]
+    name       = "嘉兴平湖安悦"
+    url        = "/"
+    weight     = 9
+    parent     = "section.partner.construction"    
 
 [[menu.main]]
     name       = "技术支持"
@@ -272,7 +344,10 @@ pluralizelisttitles = false
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>诚信铸就品质 创新引领未来</p>"
+    about_us = """<p>全系列触控商显整机生产厂家
+    <br> 产品全 | 款式新 | 技术强 | 质量优 | 服务款
+    <br> 全球首推-以换代修, 30天无理由承诺
+    </p>"""
     copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有"
 
     # Format dates with Go's time formatting
@@ -299,8 +374,9 @@ pluralizelisttitles = false
 # 是否启用顶层通知栏
 [params.topbar]
     enable = false
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+    text = """<p class="hidden-sm hidden-xs">昆山融禾电子科技有限公司</p>
+      <p class="hidden-md hidden-lg">
+      <a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
