@@ -22,12 +22,11 @@ paginate = 10
 # not pluralize title pages by default
 pluralizelisttitles = false
 
-[menu]
 
 # 板块化分
 # 权重对应在页面上显示的次序
 
-# Main menu
+[menu]
 [[menu.main]]
     name       = "主页"
     identifier = "menu.home"
@@ -346,7 +345,7 @@ pluralizelisttitles = false
 
     about_us = """<p>全系列触控商显整机生产厂家
     <br>产品全 | 款式新 | 技术强 | 质量优 | 服务款
-    <br>全球首推-以换代修, 30天无理由承诺
+    <br> 全球首推-以换代修, 30天无理由承诺
     </p>"""
     copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有"
 

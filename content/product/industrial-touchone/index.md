@@ -1,0 +1,8 @@
++++
+title = "工控一体机"
+categories = ["工控设备"]
+banner = "img/products/cover/industrial-touchone.png"
++++
+
+![alt](16.png)
+![alt](17.png)

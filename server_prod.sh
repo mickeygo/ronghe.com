@@ -1,0 +1,1 @@
+hugo server --bind="0.0.0.0" --baseURL="http://101.34.207.41:1313/"
