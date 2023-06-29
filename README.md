@@ -1,37 +1,53 @@
 # ronghe.com
 
-#### 介绍
-昆山融禾电子科技有限公司门户网站
+## 说明
 
-#### 软件架构
-软件架构说明
+昆山融禾电子科技有限公司门户完整
 
+## 模板
 
-#### 安装教程
+框架模板：[hugo](https://gohugo.io)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+主题：[universal](https://github.com/devcows/hugo-universal-theme)
 
-#### 使用说明
+## 部署
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### CentOS
 
-#### 参与贡献
+查看服务是否在后台运行 => `ps -aux | grep hugo`
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+查看服务占用端口 => `netstat -tunlp | grep 1313`
 
+关闭进程 => `kill -9 pid`
 
-#### 特技
+#### nohup 后台启动
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+后台启动命令（不含日志） => `nohup hugo server --bind="0.0.0.0" > /dev/null 1>&2 &`
+
+后台启动命令（含日志） => `nohup hugo server --bind="0.0.0.0" > out.log 2>&1 &`
+
+#### screen 启动服务
+
+CentOS8以上需要安装 => `yum install epel-release`
+
+新建一个窗口 => `screen -S [虚拟终端名字]`
+
+启动服务 => `hugo server --bind="0.0.0.0" > out.log 2>&1`
+
+退出窗口（保留当前窗口） => `ctrl+a+d` 或 `screen -d`
+
+查看已存在的screen => `screen -ls`
+
+重新连接窗口 => `screen -r [PID]` 或 `screen -R [窗口名称]`
+
+#### tmux 启动服务
+
+创建 tmux 终端 => `tmux new -s [终端名称]`
+
+退出终端 => 先按 `ctrl+b` tmux 接收指令，再按 `d` 即可回到主终端
+
+退出终端 => `ctrl+b+d`，同时按住三个键，或是输入 `exit` 命令
+
+查看已存在的 tmux => `tmux ls`
+
+重新进入 => `tmux -a -t [终端名称]`
