@@ -74,43 +74,43 @@
   translation: "Error 404: Page not found"
 
 - id: 404Message
-  translation: "We are sorry – this page is not here anymore"
+  translation: "抱歉 – 此页面不存在"
 
 - id: 404NavHome
   translation: "跳到主页"
 
 - id: January
-  translation: January
+  translation: 一月
 
 - id: February
-  translation: February
+  translation: 二月
 
 - id: March
-  translation: March
+  translation: 三月
 
 - id: April
-  translation: April
+  translation: 四月
 
 - id: May
-  translation: May
+  translation: 五月
 
 - id: June
-  translation: June
+  translation: 六月
 
 - id: July
-  translation: July
+  translation: 七月
 
 - id: August
-  translation: August
+  translation: 八月
 
 - id: September
-  translation: September
+  translation: 九月
 
 - id: October
-  translation: October
+  translation: 十月
 
 - id: November
-  translation: November
+  translation: 十一月
 
 - id: December
-  translation: December
+  translation: 十二月

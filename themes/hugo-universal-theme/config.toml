@@ -36,12 +36,12 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "产品"
     identifier = "menu.products"
-    url        = "/img/products/001.jpg"
+    url        = "" # 下拉菜单显示图片，菜单项过多时会导致菜单项显示不全
     weight     = 2
 
 [[menu.main]]
-    name       = "工控机"
-    identifier = "section.ipc"
+    name       = "美联工控机"
+    identifier = "section.ml-ipc"
     url        = "/"
     weight     = 1
     parent     = "menu.products"
@@ -51,23 +51,23 @@ pluralizelisttitles = false
     name       = "美联迷你工控机"
     url        = "/product/ml-mini-ops/"
     weight     = 1
-    parent     = "section.ipc"
+    parent     = "section.ml-ipc"
 
 [[menu.main]]
     name       = "美联壁挂式工控机"
     url        = "/"
     weight     = 2
-    parent     = "section.ipc"
+    parent     = "section.ml-ipc"
 
 [[menu.main]]
     name       = "美联4U工控机"
-    url        = "/"
+    url        = "/product/ml-ipc-4u"
     weight     = 3
-    parent     = "section.ipc"
+    parent     = "section.ml-ipc"
 
 [[menu.main]]    
     name       = "服务器"
-    identifier = "section.server"
+    identifier = "section.ml-server"
     url        = "/"
     weight     = 2
     parent     = "menu.products"
@@ -75,53 +75,261 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "美联服务器"
-    url        = "/"
+    url        = "/product/ml-ss"
     weight     = 1
-    parent     = "section.server"
+    parent     = "section.ml-server"
 
 [[menu.main]]
-    name       = "触控一体机"
-    identifier = "section.onetouch"
+    name       = "智慧教学设备"
+    identifier = "section.smart-teaching"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.products"
+    post       = 2
+
+[[menu.main]]
+    name       = "智慧教育平板"
+    url        = "/product/smart-teaching-touchone"
+    weight     = 1
+    parent     = "section.smart-teaching"
+
+[[menu.main]]
+    name       = "校园班牌"
+    url        = "/product/smart-teaching-classcard"
+    weight     = 2
+    parent     = "section.smart-teaching"
+
+[[menu.main]]
+    name       = "纳米互动黑板"
+    url        = "/product/smart-teaching-blackboard"
+    weight     = 3
+    parent     = "section.smart-teaching"
+
+[[menu.main]]
+    name       = "智慧会议设备"
+    identifier = "section.smart-meeting"
     url        = "/"
     weight     = 2
     parent     = "menu.products"
     post       = 2
 
 [[menu.main]]
-    name       = "立式自助终端查询一体机"
-    url        = "/"
+    name       = "智慧会议平板"
+    url        = "/product/smart-meeting-touchone"
     weight     = 1
-    parent     = "section.onetouch"
+    parent     = "section.smart-meeting" 
 
 [[menu.main]]
-    name       = "立式触摸查询一体机"
-    url        = "/"
-    weight     = 2
-    parent     = "section.onetouch"
-
-[[menu.main]]
-    name       = "卧式触摸一体机"
+    name       = "智慧商显设备"
+    identifier = "section.smart-commercial-display"
     url        = "/"
     weight     = 3
-    parent     = "section.onetouch"
+    parent     = "menu.products"
+    post       = 2
 
 [[menu.main]]
-    name       = "壁挂触摸查询一体机"
-    url        = "/"
+    name       = "壁挂广告机"
+    url        = "/product/smart-commercial-display-ad-wall"
+    weight     = 1
+    parent     = "section.smart-commercial-display"
+# 
+[[menu.main]]
+    name       = "立式广告机"
+    url        = "/product/smart-commercial-display-ad-vertical"
+    weight     = 2
+    parent     = "section.smart-commercial-display" 
+
+[[menu.main]]
+    name       = "电子水牌"
+    url        = "/product/smart-commercial-display-ad-water"
+    weight     = 3
+    parent     = "section.smart-commercial-display"
+
+[[menu.main]]
+    name       = "户外立式广告机"
+    url        = "/product/smart-commercial-display-ad-vertical-outdoors"
     weight     = 4
-    parent     = "section.onetouch"
+    parent     = "section.smart-commercial-display"   
 
 [[menu.main]]
-    name       = "嵌入式触摸一体机"
-    url        = "/"
+    name       = "户外壁挂广告机"
+    url        = "/product/smart-commercial-display-ad-wall-outdoors"
     weight     = 5
-    parent     = "section.onetouch"
+    parent     = "section.smart-commercial-display"   
 
 [[menu.main]]
-    name       = "会议/教学 触摸一体机"
-    url        = "/"
+    name       = "相框广告机"
+    url        = "/product/smart-commercial-display-ad-frame"
     weight     = 6
-    parent     = "section.onetouch"
+    parent     = "section.smart-commercial-display"   
+
+[[menu.main]]
+    name       = "纳米水晶讲台"
+    url        = "/product/smart-commercial-display-podium"
+    weight     = 7
+    parent     = "section.smart-commercial-display"   
+
+[[menu.main]]
+    name       = "智能公交站牌"
+    url        = "/product/smart-commercial-display-bus-stopboard"
+    weight     = 8
+    parent     = "section.smart-commercial-display"  
+
+[[menu.main]]
+    name       = "自助互交设备"
+    identifier = "section.self-service-mutual"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.products"
+    post       = 3    
+
+[[menu.main]]
+    name       = "触摸查询机"
+    url        = "/product/self-service-mutual-touch-inquiry"
+    weight     = 1
+    parent     = "section.self-service-mutual"  
+
+[[menu.main]]
+    name       = "电子虚拟翻书机"
+    url        = "/product/self-service-mutual-book-flipper"
+    weight     = 2
+    parent     = "section.self-service-mutual"  
+
+[[menu.main]]
+    name       = "排队叫号机"
+    url        = "/product/self-service-mutual-queuing"
+    weight     = 3
+    parent     = "section.self-service-mutual"  
+
+[[menu.main]]
+    name       = "自助终端机"
+    url        = "/product/self-service-mutual-self-help"
+    weight     = 3
+    parent     = "section.self-service-mutual"  
+
+[[menu.main]]
+    name       = "拼接商用大屏"
+    identifier = "section.splicing-commercial-large-screens"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.products"
+    post       = 3        
+
+[[menu.main]]
+    name       = "液晶拼接屏"
+    url        = "/product/splicing-commercial-large-screens-lcd"
+    weight     = 1
+    parent     = "section.splicing-commercial-large-screens"          
+
+[[menu.main]]
+    name       = "全彩LED屏"
+    url        = "/product/splicing-commercial-large-screens-led"
+    weight     = 2
+    parent     = "section.splicing-commercial-large-screens"      
+
+[[menu.main]]
+    name       = "新型商用设备"
+    identifier = "section.new-commercial"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.products"
+    post       = 3    
+    
+[[menu.main]]
+    name       = "AI人脸识别终端"
+    url        = "/product/new-commercial-face-recognition"
+    weight     = 1
+    parent     = "section.new-commercial"             
+
+[[menu.main]]
+    name       = "条形屏"
+    url        = "/product/new-commercial-bar-screen"
+    weight     = 2
+    parent     = "section.new-commercial"             
+
+[[menu.main]]
+    name       = "双面OLED标牌显示器"
+    url        = "/product/new-commercial-double-oled"
+    weight     = 3
+    parent     = "section.new-commercial"
+
+[[menu.main]]
+    name       = "曲面拼接屏（柔性拼接屏）"
+    url        = "/product/new-commercial-screen-curved-stitching"
+    weight     = 4
+    parent     = "section.new-commercial"
+
+[[menu.main]]
+    name       = "透明展示柜"
+    url        = "/product/new-commercial-transparent-display-cabinet"
+    weight     = 5
+    parent     = "section.new-commercial"
+
+[[menu.main]]
+    name       = "电脑一体机设备"
+    identifier = "section.all-in-one"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.products"
+    post       = 4    
+
+[[menu.main]]
+    name       = "电脑一体机"
+    url        = "/product/all-in-one-pc"
+    weight     = 1
+    parent     = "section.all-in-one"       
+
+[[menu.main]]
+    name       = "展厅设备"
+    identifier = "section.exhibition-hall"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.products"
+    post       = 4    
+
+[[menu.main]]
+    name       = "互动滑轨屏"
+    url        = "/product/exhibition-hall-screen-slide"
+    weight     = 1
+    parent     = "section.exhibition-hall"    
+
+[[menu.main]]
+    name       = "触摸茶几"
+    url        = "/product/exhibition-hall-touch-tea-table"
+    weight     = 2
+    parent     = "section.exhibition-hall"    
+
+[[menu.main]]
+    name       = "全息投影展示柜"
+    url        = "/product/exhibition-hall-holographic-projection-display-cabinet"
+    weight     = 3
+    parent     = "section.exhibition-hall"
+
+[[menu.main]]
+    name       = "工控设备"
+    identifier = "section.industrial"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.products"
+    post       = 4      
+
+[[menu.main]]
+    name       = "工控一体机"
+    url        = "/product/industrial-touchone"
+    weight     = 1
+    parent     = "section.industrial"           
+
+[[menu.main]]
+    name       = "便携式工业电脑"
+    url        = "/product/industrial-portable-pc"
+    weight     = 2
+    parent     = "section.industrial"           
+
+[[menu.main]]
+    name       = "三防平板"
+    url        = "/product/industrial-rugged-tablet"
+    weight     = 3
+    parent     = "section.industrial"               
 
 [[menu.main]]
     name       = "解决方案"
@@ -235,22 +443,16 @@ pluralizelisttitles = false
     parent     = "section.partner.construction"    
 
 [[menu.main]]
-    name       = "技术支持"
-    identifier = "menu.techsupport"
-    url        = "/tech/"
-    weight     = 5
-
-[[menu.main]]
     name       = "关于融禾"
     identifier = "menu.about"
     url        = "/about/"
-    weight     = 6
+    weight     = 5
 
 [[menu.main]]
     name       = "联系我们"
     identifier = "menu.contact"
     url        = "/contact/"
-    weight     = 7
+    weight     = 6
 
 
 # 顶栏，可选择显示
@@ -345,13 +547,14 @@ pluralizelisttitles = false
 
     about_us = """<p>全系列触控商显整机生产厂家
     <br>产品全 | 款式新 | 技术强 | 质量优 | 服务款
-    <br> 全球首推-以换代修, 30天无理由承诺
+    <br>全球首推-以换代修，30天无理由承诺
     </p>"""
     copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有"
 
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
 
+    # dropdown 菜单鼠标进入后立即显示
     dropdown_mouse_over = false
 
     disabled_logo = false
@@ -431,12 +634,12 @@ pluralizelisttitles = false
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = false
+    enable = true
     icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = ""
+    subtitle = ""
+    link_url = "/product"
+    link_text = "查看更多产品"
 
 [params.clients]
     enable = true
