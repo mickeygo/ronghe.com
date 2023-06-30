@@ -1,7 +1,7 @@
 +++
 title = "智慧教育平板"
 categories = ["智慧教学设备"]
-banner = "img/products/cover/smart-teaching-touchone.png"
+banner = "img/products/thumbnail/smart-teaching-touchone.png"
 summary = "智慧教育平板将红外触控技术、智能化办公教学软件、多媒体网络通信技术、高清平板显示技术等多项技术综合于一体，整合了投影仪、电子白板、电脑、电视、功放音响、触摸功能等多种设备于一体的多功能互动教学设备，将传统的显示终端提升为功能全面的人机交互设备。通过此产品，用户可以实现书写、批注、绘画、多媒体娱乐以及电脑操作，直接打开设备即可轻松演绎互动课堂。"
 +++
 

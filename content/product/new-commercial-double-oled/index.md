@@ -1,7 +1,7 @@
 +++
 title = "双面OLED标牌显示器"
 categories = ["新型商用设备"]
-banner = "img/products/cover/new-commercial-double-oled.png"
+banner = "img/products/thumbnail/new-commercial-double-oled.png"
 +++
 
 ![alt](55.png)

@@ -1,7 +1,7 @@
 +++
 title = "纳米水晶讲台"
 categories = ["智慧商显设备"]
-banner = "img/products/cover/smart-commercial-display-podium.png"
+banner = "img/products/thumbnail/smart-commercial-display-podium.png"
 summary = "将普通的玻璃变身独具特色的触摸屏，用户可透过指尖触控悬浮于玻璃表面的影像，具有很强的科幻感与艺术感。画面色彩鲜艳触控精准无差、表现毫不逊色。不论是公司展厅、展会、专柜，还是商业推广活动、新品发布会，30寸悬浮触控一体机都是良好的选择通过软硬件的结合构成了空中3D立体悬浮成像，形成空中幻影，中间可结合实物，展示影像与实物的完美结合。对比度、清晰度高，具有空间感，透视感。"
 +++
 

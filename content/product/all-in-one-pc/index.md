@@ -1,7 +1,7 @@
 +++
 title = "电脑一体机"
 categories = ["电脑一体机"]
-banner = "img/products/cover/all-in-one-pc.png"
+banner = "img/products/thumbnail/all-in-one-pc.png"
 summary = "电脑一体机是目前台式机和笔记本电脑之间的一个新型的市场产物，它将主机部分、显示器部分整合到一起的新形态电脑，该产品的创新在于内部元件的高度集成。随着无线技术的发展，电脑一体机的键盘、鼠标与显示器可实现无线链接，机器只有一根电源线，解决了一直为人诟病的台式机线缆多而杂的问题。"
 +++
 

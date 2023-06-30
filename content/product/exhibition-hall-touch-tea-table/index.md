@@ -1,7 +1,7 @@
 +++
 title = "触摸茶几款"
 categories = ["展厅设备"]
-banner = "img/products/cover/exhibition-hall-touch-tea-table.png"
+banner = "img/products/thumbnail/exhibition-hall-touch-tea-table.png"
 summary = "触摸茶几集合“实用性”“体验性”，“互动性”和“娱乐性”于一体，让您的多点触摸茶几变成一个多媒体中心和信息资讯平台。图文并茂，形式新颖，只需轻轻触摸，多点触摸茶几能给您绝对不一样的信息体验和时尚感觉。可集成多行业的基本业务需求，如KTV点歌、餐饮点餐系统、房地产的楼盘展示、电信/移动/银行自助业务办理、汽车预售展示、婚纱摄影展示、旅游景区介绍、博物馆/科技馆介绍等功能。"
 +++
 
