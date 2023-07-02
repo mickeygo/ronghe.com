@@ -49,21 +49,33 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "美联迷你工控机"
-    url        = "/product/ml-mini-ops/"
+    url        = "/product/ml-ipc-mini-ops/"
     weight     = 1
     parent     = "section.ml-ipc"
 
 [[menu.main]]
-    name       = "美联壁挂式工控机"
-    url        = "/"
+    name       = "美联4U工控机"
+    url        = "/product/ml-ipc-4u-19"
     weight     = 2
     parent     = "section.ml-ipc"
 
 [[menu.main]]
-    name       = "美联4U工控机"
-    url        = "/product/ml-ipc-4u"
+    name       = "美联壁挂式工控机（304）"
+    url        = "/product/ml-ipc-304"
     weight     = 3
     parent     = "section.ml-ipc"
+
+[[menu.main]]
+    name       = "美联壁挂式工控机（508）"
+    url        = "/product/ml-ipc-508"
+    weight     = 4
+    parent     = "section.ml-ipc"
+
+[[menu.main]]
+    name       = "美联定制机箱"
+    url        = "/product/ml-customized-chassis"
+    weight     = 5
+    parent     = "section.ml-ipc"    
 
 [[menu.main]]    
     name       = "服务器"
@@ -75,7 +87,7 @@ pluralizelisttitles = false
 
 [[menu.main]]
     name       = "美联服务器"
-    url        = "/product/ml-ss"
+    url        = "/product/ml-server-ss"
     weight     = 1
     parent     = "section.ml-server"
 
@@ -336,6 +348,30 @@ pluralizelisttitles = false
     identifier = "menu.solution"
     url        = "/sulotion/"
     weight     = 3
+
+[[menu.main]]
+    name       = "工控设备"
+    url        = "/"
+    weight     = 1
+    parent     = "menu.solution"    
+
+[[menu.main]]
+    name       = "智慧城市"
+    url        = "/"
+    weight     = 2
+    parent     = "menu.solution" 
+
+[[menu.main]]
+    name       = "智慧教育"
+    url        = "/"
+    weight     = 3
+    parent     = "menu.solution"         
+
+[[menu.main]]
+    name       = "餐饮零售"
+    url        = "/"
+    weight     = 4
+    parent     = "menu.solution"             
 
 [[menu.main]]
     name       = "合作伙伴"
