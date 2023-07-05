@@ -7,5 +7,5 @@ theme = 'hugo-universal-theme'
 
 # Hugo Markdown 配置，https://gohugo.io/getting-started/configuration-markup/#goldmark
 [markup.goldmark.renderer]
-    unsafe = true # 允许 markdown 中使用 html
+    unsafe = false # 允许 markdown 中使用 html，默认为 false
       
