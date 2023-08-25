@@ -585,7 +585,7 @@ pluralizelisttitles = false
     <br>产品全 | 款式新 | 技术强 | 质量优 | 服务款
     <br>全球首推-以换代修，30天无理由承诺
     </p>"""
-    copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有"
+    copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有 | <a href='https://beian.miit.gov.cn/' target='_blank'>苏ICP备2023026986号</a>"
 
     # Format dates with Go's time formatting
     date_format = "2006-01-02"
