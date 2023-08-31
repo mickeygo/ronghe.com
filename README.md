@@ -51,3 +51,10 @@ CentOS8以上需要安装 => `yum install epel-release`
 查看已存在的 tmux => `tmux ls`
 
 重新进入 => `tmux a -t [终端名称]`
+
+#### 直接用 Hugo 作为你的 Web 服务器
+
+$ hugo server --baseURL=http://ksronghe.com/ --port=80 --appendPort=false --bind=0.0.0.0
+
+若显示 “Error: command error: server startup failed: listen tcp 127.0.0.1:80: bind: permission denied” 错误，使用超管权限:
+$ sudo /usr/local/bin/hugo server --baseURL=http://ksronghe.com/ --port=80 --appendPort=false --bind=0.0.0.0
