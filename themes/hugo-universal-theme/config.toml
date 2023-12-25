@@ -28,593 +28,593 @@ pluralizelisttitles = false
 
 [menu]
 [[menu.main]]
-    name       = "主页"
-    identifier = "menu.home"
-    url        = "/"
-    weight     = 1
+name = "主页"
+identifier = "menu.home"
+url = "/"
+weight = 1
 
 [[menu.main]]
-    name       = "产品"
-    identifier = "menu.products"
-    url        = "" # 下拉菜单显示图片，菜单项过多时会导致菜单项显示不全
-    weight     = 2
+name = "产品"
+identifier = "menu.products"
+url = ""                     # 下拉菜单显示图片，菜单项过多时会导致菜单项显示不全
+weight = 2
 
 [[menu.main]]
-    name       = "美联工控机"
-    identifier = "section.ml-ipc"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.products"
-    post       = 1
+name = "美联工控机"
+identifier = "section.ml-ipc"
+url = "/"
+weight = 1
+parent = "menu.products"
+post = 1
 
 [[menu.main]]
-    name       = "美联迷你工控机"
-    url        = "/product/ml-ipc-mini-ops/"
-    weight     = 1
-    parent     = "section.ml-ipc"
+name = "美联迷你工控机"
+url = "/product/ml-ipc-mini-ops/"
+weight = 1
+parent = "section.ml-ipc"
 
 [[menu.main]]
-    name       = "美联4U工控机"
-    url        = "/product/ml-ipc-4u-19"
-    weight     = 2
-    parent     = "section.ml-ipc"
+name = "美联4U工控机"
+url = "/product/ml-ipc-4u-19"
+weight = 2
+parent = "section.ml-ipc"
 
 [[menu.main]]
-    name       = "美联壁挂式工控机（304）"
-    url        = "/product/ml-ipc-304"
-    weight     = 3
-    parent     = "section.ml-ipc"
+name = "美联壁挂式工控机（304）"
+url = "/product/ml-ipc-304"
+weight = 3
+parent = "section.ml-ipc"
 
 [[menu.main]]
-    name       = "美联壁挂式工控机（508）"
-    url        = "/product/ml-ipc-508"
-    weight     = 4
-    parent     = "section.ml-ipc"
+name = "美联壁挂式工控机（508）"
+url = "/product/ml-ipc-508"
+weight = 4
+parent = "section.ml-ipc"
 
 [[menu.main]]
-    name       = "美联定制机箱"
-    url        = "/product/ml-customized-chassis"
-    weight     = 5
-    parent     = "section.ml-ipc"    
-
-[[menu.main]]    
-    name       = "服务器"
-    identifier = "section.ml-server"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.products"
-    post       = 1
+name = "美联定制机箱"
+url = "/product/ml-customized-chassis"
+weight = 5
+parent = "section.ml-ipc"
 
 [[menu.main]]
-    name       = "美联服务器"
-    url        = "/product/ml-server-ss"
-    weight     = 1
-    parent     = "section.ml-server"
+name = "服务器"
+identifier = "section.ml-server"
+url = "/"
+weight = 2
+parent = "menu.products"
+post = 1
 
 [[menu.main]]
-    name       = "智慧教学设备"
-    identifier = "section.smart-teaching"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.products"
-    post       = 2
+name = "美联服务器"
+url = "/product/ml-server-ss"
+weight = 1
+parent = "section.ml-server"
 
 [[menu.main]]
-    name       = "智慧教育平板"
-    url        = "/product/smart-teaching-touchone"
-    weight     = 1
-    parent     = "section.smart-teaching"
+name = "智慧教学设备"
+identifier = "section.smart-teaching"
+url = "/"
+weight = 1
+parent = "menu.products"
+post = 2
 
 [[menu.main]]
-    name       = "校园班牌"
-    url        = "/product/smart-teaching-classcard"
-    weight     = 2
-    parent     = "section.smart-teaching"
+name = "智慧教育平板"
+url = "/product/smart-teaching-touchone"
+weight = 1
+parent = "section.smart-teaching"
 
 [[menu.main]]
-    name       = "纳米互动黑板"
-    url        = "/product/smart-teaching-blackboard"
-    weight     = 3
-    parent     = "section.smart-teaching"
+name = "校园班牌"
+url = "/product/smart-teaching-classcard"
+weight = 2
+parent = "section.smart-teaching"
 
 [[menu.main]]
-    name       = "智慧会议设备"
-    identifier = "section.smart-meeting"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.products"
-    post       = 2
+name = "纳米互动黑板"
+url = "/product/smart-teaching-blackboard"
+weight = 3
+parent = "section.smart-teaching"
 
 [[menu.main]]
-    name       = "智慧会议平板"
-    url        = "/product/smart-meeting-touchone"
-    weight     = 1
-    parent     = "section.smart-meeting" 
+name = "智慧会议设备"
+identifier = "section.smart-meeting"
+url = "/"
+weight = 2
+parent = "menu.products"
+post = 2
 
 [[menu.main]]
-    name       = "智慧商显设备"
-    identifier = "section.smart-commercial-display"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.products"
-    post       = 2
+name = "智慧会议平板"
+url = "/product/smart-meeting-touchone"
+weight = 1
+parent = "section.smart-meeting"
 
 [[menu.main]]
-    name       = "壁挂广告机"
-    url        = "/product/smart-commercial-display-ad-wall"
-    weight     = 1
-    parent     = "section.smart-commercial-display"
+name = "智慧商显设备"
+identifier = "section.smart-commercial-display"
+url = "/"
+weight = 3
+parent = "menu.products"
+post = 2
+
+[[menu.main]]
+name = "壁挂广告机"
+url = "/product/smart-commercial-display-ad-wall"
+weight = 1
+parent = "section.smart-commercial-display"
 # 
 [[menu.main]]
-    name       = "立式广告机"
-    url        = "/product/smart-commercial-display-ad-vertical"
-    weight     = 2
-    parent     = "section.smart-commercial-display" 
+name = "立式广告机"
+url = "/product/smart-commercial-display-ad-vertical"
+weight = 2
+parent = "section.smart-commercial-display"
 
 [[menu.main]]
-    name       = "电子水牌"
-    url        = "/product/smart-commercial-display-ad-water"
-    weight     = 3
-    parent     = "section.smart-commercial-display"
+name = "电子水牌"
+url = "/product/smart-commercial-display-ad-water"
+weight = 3
+parent = "section.smart-commercial-display"
 
 [[menu.main]]
-    name       = "户外立式广告机"
-    url        = "/product/smart-commercial-display-ad-vertical-outdoors"
-    weight     = 4
-    parent     = "section.smart-commercial-display"   
+name = "户外立式广告机"
+url = "/product/smart-commercial-display-ad-vertical-outdoors"
+weight = 4
+parent = "section.smart-commercial-display"
 
 [[menu.main]]
-    name       = "户外壁挂广告机"
-    url        = "/product/smart-commercial-display-ad-wall-outdoors"
-    weight     = 5
-    parent     = "section.smart-commercial-display"   
+name = "户外壁挂广告机"
+url = "/product/smart-commercial-display-ad-wall-outdoors"
+weight = 5
+parent = "section.smart-commercial-display"
 
 [[menu.main]]
-    name       = "相框广告机"
-    url        = "/product/smart-commercial-display-ad-frame"
-    weight     = 6
-    parent     = "section.smart-commercial-display"   
+name = "相框广告机"
+url = "/product/smart-commercial-display-ad-frame"
+weight = 6
+parent = "section.smart-commercial-display"
 
 [[menu.main]]
-    name       = "纳米水晶讲台"
-    url        = "/product/smart-commercial-display-podium"
-    weight     = 7
-    parent     = "section.smart-commercial-display"   
+name = "纳米水晶讲台"
+url = "/product/smart-commercial-display-podium"
+weight = 7
+parent = "section.smart-commercial-display"
 
 [[menu.main]]
-    name       = "智能公交站牌"
-    url        = "/product/smart-commercial-display-bus-stopboard"
-    weight     = 8
-    parent     = "section.smart-commercial-display"  
+name = "智能公交站牌"
+url = "/product/smart-commercial-display-bus-stopboard"
+weight = 8
+parent = "section.smart-commercial-display"
 
 [[menu.main]]
-    name       = "自助互交设备"
-    identifier = "section.self-service-mutual"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.products"
-    post       = 3    
+name = "自助互交设备"
+identifier = "section.self-service-mutual"
+url = "/"
+weight = 1
+parent = "menu.products"
+post = 3
 
 [[menu.main]]
-    name       = "触摸查询机"
-    url        = "/product/self-service-mutual-touch-inquiry"
-    weight     = 1
-    parent     = "section.self-service-mutual"  
+name = "触摸查询机"
+url = "/product/self-service-mutual-touch-inquiry"
+weight = 1
+parent = "section.self-service-mutual"
 
 [[menu.main]]
-    name       = "电子虚拟翻书机"
-    url        = "/product/self-service-mutual-book-flipper"
-    weight     = 2
-    parent     = "section.self-service-mutual"  
+name = "电子虚拟翻书机"
+url = "/product/self-service-mutual-book-flipper"
+weight = 2
+parent = "section.self-service-mutual"
 
 [[menu.main]]
-    name       = "排队叫号机"
-    url        = "/product/self-service-mutual-queuing"
-    weight     = 3
-    parent     = "section.self-service-mutual"  
+name = "排队叫号机"
+url = "/product/self-service-mutual-queuing"
+weight = 3
+parent = "section.self-service-mutual"
 
 [[menu.main]]
-    name       = "自助终端机"
-    url        = "/product/self-service-mutual-self-help"
-    weight     = 3
-    parent     = "section.self-service-mutual"  
+name = "自助终端机"
+url = "/product/self-service-mutual-self-help"
+weight = 3
+parent = "section.self-service-mutual"
 
 [[menu.main]]
-    name       = "拼接商用大屏"
-    identifier = "section.splicing-commercial-large-screens"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.products"
-    post       = 3        
+name = "拼接商用大屏"
+identifier = "section.splicing-commercial-large-screens"
+url = "/"
+weight = 2
+parent = "menu.products"
+post = 3
 
 [[menu.main]]
-    name       = "液晶拼接屏"
-    url        = "/product/splicing-commercial-large-screens-lcd"
-    weight     = 1
-    parent     = "section.splicing-commercial-large-screens"          
+name = "液晶拼接屏"
+url = "/product/splicing-commercial-large-screens-lcd"
+weight = 1
+parent = "section.splicing-commercial-large-screens"
 
 [[menu.main]]
-    name       = "全彩LED屏"
-    url        = "/product/splicing-commercial-large-screens-led"
-    weight     = 2
-    parent     = "section.splicing-commercial-large-screens"      
+name = "全彩LED屏"
+url = "/product/splicing-commercial-large-screens-led"
+weight = 2
+parent = "section.splicing-commercial-large-screens"
 
 [[menu.main]]
-    name       = "新型商用设备"
-    identifier = "section.new-commercial"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.products"
-    post       = 3    
-    
-[[menu.main]]
-    name       = "AI人脸识别终端"
-    url        = "/product/new-commercial-face-recognition"
-    weight     = 1
-    parent     = "section.new-commercial"             
+name = "新型商用设备"
+identifier = "section.new-commercial"
+url = "/"
+weight = 3
+parent = "menu.products"
+post = 3
 
 [[menu.main]]
-    name       = "条形屏"
-    url        = "/product/new-commercial-bar-screen"
-    weight     = 2
-    parent     = "section.new-commercial"             
+name = "AI人脸识别终端"
+url = "/product/new-commercial-face-recognition"
+weight = 1
+parent = "section.new-commercial"
 
 [[menu.main]]
-    name       = "双面OLED标牌显示器"
-    url        = "/product/new-commercial-double-oled"
-    weight     = 3
-    parent     = "section.new-commercial"
+name = "条形屏"
+url = "/product/new-commercial-bar-screen"
+weight = 2
+parent = "section.new-commercial"
 
 [[menu.main]]
-    name       = "曲面拼接屏（柔性拼接屏）"
-    url        = "/product/new-commercial-screen-curved-stitching"
-    weight     = 4
-    parent     = "section.new-commercial"
+name = "双面OLED标牌显示器"
+url = "/product/new-commercial-double-oled"
+weight = 3
+parent = "section.new-commercial"
 
 [[menu.main]]
-    name       = "透明展示柜"
-    url        = "/product/new-commercial-transparent-display-cabinet"
-    weight     = 5
-    parent     = "section.new-commercial"
+name = "曲面拼接屏（柔性拼接屏）"
+url = "/product/new-commercial-screen-curved-stitching"
+weight = 4
+parent = "section.new-commercial"
 
 [[menu.main]]
-    name       = "电脑一体机设备"
-    identifier = "section.all-in-one"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.products"
-    post       = 4    
+name = "透明展示柜"
+url = "/product/new-commercial-transparent-display-cabinet"
+weight = 5
+parent = "section.new-commercial"
 
 [[menu.main]]
-    name       = "电脑一体机"
-    url        = "/product/all-in-one-pc"
-    weight     = 1
-    parent     = "section.all-in-one"       
+name = "电脑一体机设备"
+identifier = "section.all-in-one"
+url = "/"
+weight = 1
+parent = "menu.products"
+post = 4
 
 [[menu.main]]
-    name       = "展厅设备"
-    identifier = "section.exhibition-hall"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.products"
-    post       = 4    
+name = "电脑一体机"
+url = "/product/all-in-one-pc"
+weight = 1
+parent = "section.all-in-one"
 
 [[menu.main]]
-    name       = "互动滑轨屏"
-    url        = "/product/exhibition-hall-screen-slide"
-    weight     = 1
-    parent     = "section.exhibition-hall"    
+name = "展厅设备"
+identifier = "section.exhibition-hall"
+url = "/"
+weight = 2
+parent = "menu.products"
+post = 4
 
 [[menu.main]]
-    name       = "触摸茶几"
-    url        = "/product/exhibition-hall-touch-tea-table"
-    weight     = 2
-    parent     = "section.exhibition-hall"    
+name = "互动滑轨屏"
+url = "/product/exhibition-hall-screen-slide"
+weight = 1
+parent = "section.exhibition-hall"
 
 [[menu.main]]
-    name       = "全息投影展示柜"
-    url        = "/product/exhibition-hall-holographic-projection-display-cabinet"
-    weight     = 3
-    parent     = "section.exhibition-hall"
+name = "触摸茶几"
+url = "/product/exhibition-hall-touch-tea-table"
+weight = 2
+parent = "section.exhibition-hall"
 
 [[menu.main]]
-    name       = "工控设备"
-    identifier = "section.industrial"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.products"
-    post       = 4      
+name = "全息投影展示柜"
+url = "/product/exhibition-hall-holographic-projection-display-cabinet"
+weight = 3
+parent = "section.exhibition-hall"
 
 [[menu.main]]
-    name       = "工控一体机"
-    url        = "/product/industrial-touchone"
-    weight     = 1
-    parent     = "section.industrial"           
+name = "工控设备"
+identifier = "section.industrial"
+url = "/"
+weight = 3
+parent = "menu.products"
+post = 4
 
 [[menu.main]]
-    name       = "便携式工业电脑"
-    url        = "/product/industrial-portable-pc"
-    weight     = 2
-    parent     = "section.industrial"           
+name = "工控一体机"
+url = "/product/industrial-touchone"
+weight = 1
+parent = "section.industrial"
 
 [[menu.main]]
-    name       = "三防平板"
-    url        = "/product/industrial-rugged-tablet"
-    weight     = 3
-    parent     = "section.industrial"               
+name = "便携式工业电脑"
+url = "/product/industrial-portable-pc"
+weight = 2
+parent = "section.industrial"
 
 [[menu.main]]
-    name       = "解决方案"
-    identifier = "menu.solution"
-    url        = "/sulotion/"
-    weight     = 3
+name = "三防平板"
+url = "/product/industrial-rugged-tablet"
+weight = 3
+parent = "section.industrial"
 
 [[menu.main]]
-    name       = "工控设备"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.solution"    
+name = "解决方案"
+identifier = "menu.solution"
+url = "/sulotion/"
+weight = 3
 
 [[menu.main]]
-    name       = "智慧城市"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.solution" 
+name = "工控设备"
+url = "/"
+weight = 1
+parent = "menu.solution"
 
 [[menu.main]]
-    name       = "智慧教育"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.solution"         
+name = "智慧城市"
+url = "/"
+weight = 2
+parent = "menu.solution"
 
 [[menu.main]]
-    name       = "餐饮零售"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.solution"             
+name = "智慧教育"
+url = "/"
+weight = 3
+parent = "menu.solution"
 
 [[menu.main]]
-    name       = "合作伙伴"
-    identifier = "menu.partner"
-    weight     = 4
+name = "餐饮零售"
+url = "/"
+weight = 4
+parent = "menu.solution"
 
 [[menu.main]]
-    name       = "部分长期合作单位"
-    identifier = "section.partner.longterm"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.partner"
-    post       = 1
+name = "合作伙伴"
+identifier = "menu.partner"
+weight = 4
 
 [[menu.main]]
-    name       = "上海科大智能（上市公司）"
-    url        = "/"
-    weight     = 1
-    parent     = "section.partner.longterm"
+name = "部分长期合作单位"
+identifier = "section.partner.longterm"
+url = "/"
+weight = 1
+parent = "menu.partner"
+post = 1
 
 [[menu.main]]
-    name       = "合肥永乾智能控制技术有限公司"
-    url        = "/"
-    weight     = 2
-    parent     = "section.partner.longterm"
+name = "上海科大智能（上市公司）"
+url = "/"
+weight = 1
+parent = "section.partner.longterm"
 
 [[menu.main]]
-    name       = "昆山动爵健身"
-    url        = "/"
-    weight     = 3
-    parent     = "section.partner.longterm"
+name = "合肥永乾智能控制技术有限公司"
+url = "/"
+weight = 2
+parent = "section.partner.longterm"
 
 [[menu.main]]
-    name       = "连云港卫生管理局"
-    url        = "/"
-    weight     = 4
-    parent     = "section.partner.longterm"    
+name = "昆山动爵健身"
+url = "/"
+weight = 3
+parent = "section.partner.longterm"
 
 [[menu.main]]
-    name       = "响水县教育局"
-    url        = "/"
-    weight     = 5
-    parent     = "section.partner.longterm"
+name = "连云港卫生管理局"
+url = "/"
+weight = 4
+parent = "section.partner.longterm"
 
 [[menu.main]]
-    name       = "部分施工项目"
-    identifier = "section.partner.construction"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.partner"
-    post       = 2
+name = "响水县教育局"
+url = "/"
+weight = 5
+parent = "section.partner.longterm"
 
 [[menu.main]]
-    name       = "福建巨电新能源股份有限公司弱电施工"
-    url        = "/"
-    weight     = 1
-    parent     = "section.partner.construction"
+name = "部分施工项目"
+identifier = "section.partner.construction"
+url = "/"
+weight = 2
+parent = "menu.partner"
+post = 2
 
 [[menu.main]]
-    name       = "无锡上汽大通弱电施工"
-    url        = "/"
-    weight     = 2
-    parent     = "section.partner.construction"
+name = "福建巨电新能源股份有限公司弱电施工"
+url = "/"
+weight = 1
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "镇江力信网络整改弱电施工"
-    url        = "/"
-    weight     = 3
-    parent     = "section.partner.construction"
+name = "无锡上汽大通弱电施工"
+url = "/"
+weight = 2
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "河北唐山国轩电池厂弱电施工"
-    url        = "/"
-    weight     = 4
-    parent     = "section.partner.construction"
+name = "镇江力信网络整改弱电施工"
+url = "/"
+weight = 3
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "福建武夷山巨电监控设备安装"
-    url        = "/"
-    weight     = 5
-    parent     = "section.partner.construction"
+name = "河北唐山国轩电池厂弱电施工"
+url = "/"
+weight = 4
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "江西上饶瑞华网络布线施工"
-    url        = "/"
-    weight     = 6
-    parent     = "section.partner.construction"
+name = "福建武夷山巨电监控设备安装"
+url = "/"
+weight = 5
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "江西少绕星盈弱电施工项目"
-    url        = "/"
-    weight     = 7
-    parent     = "section.partner.construction"                    
+name = "江西上饶瑞华网络布线施工"
+url = "/"
+weight = 6
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "常州太平洋"
-    url        = "/"
-    weight     = 8
-    parent     = "section.partner.construction"
+name = "江西少绕星盈弱电施工项目"
+url = "/"
+weight = 7
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "嘉兴平湖安悦"
-    url        = "/"
-    weight     = 9
-    parent     = "section.partner.construction"    
+name = "常州太平洋"
+url = "/"
+weight = 8
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "关于融禾"
-    identifier = "menu.about"
-    url        = "/about/"
-    weight     = 5
+name = "嘉兴平湖安悦"
+url = "/"
+weight = 9
+parent = "section.partner.construction"
 
 [[menu.main]]
-    name       = "联系我们"
-    identifier = "menu.contact"
-    url        = "/contact/"
-    weight     = 6
+name = "关于融禾"
+identifier = "menu.about"
+url = "/about/"
+weight = 5
+
+[[menu.main]]
+name = "联系我们"
+identifier = "menu.contact"
+url = "/contact/"
+weight = 6
 
 
 # 顶栏，可选择显示
 [[menu.topbar]]
-    weight = 1
-    name = "Phone"
-    url = "tel:+12 34 567 89 01"
-    pre = "<i class='fas fa-2x fa-phone'></i>"
+weight = 1
+name = "Phone"
+url = "tel:+12 34 567 89 01"
+pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
-    weight = 2
-    name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
-    pre = "<i class='fab fa-2x fa-github'></i>"
+weight = 2
+name = "GitHub"
+url = "https://github.com/devcows/hugo-universal-theme"
+pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
-    weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
+weight = 3
+name = "Facebook"
+url = "http://facebook.com"
+pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+weight = 4
+name = "Twitter"
+url = "http://twitter.com"
+pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-    weight = 5
-    name = "Email"
-    url = "mailto:hello@universal.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
+weight = 5
+name = "Email"
+url = "mailto:hello@universal.com"
+pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 
 # 配置参数，HTML中可以引用
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    # 文章默认的SEO设置
-    defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog", "product"] # 查询的目录
-    defaultDescription = "Site template made by Devcows using Hugo"
+viewMorePostLink = "/blog/"
+author = "DevCows"
+# 文章默认的SEO设置
+defaultKeywords = ["devcows", "hugo", "go"]
+mainSections = ["blog", "product"]                              # 查询的目录
+defaultDescription = "Site template made by Devcows using Hugo"
 
-    # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+# Social media
+facebook_site = ""                                # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+twitter_site = "GoHugoIO"                         # the Twitter handle of your site (without the '@')
+default_sharing_image = "img/sharing-default.png"
 
-    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    #enableGoogleMaps = true
-    #googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+# Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
+#enableGoogleMaps = true
+#googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
 
-    #latitude = "-12.043333"
-    #longitude = "-77.028333"
+#latitude = "-12.043333"
+#longitude = "-77.028333"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+# Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+style = "default"
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 50 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - register your account to https://formspree.io/register
-    # - login and create new form
-    # - set your form's endpoint url under 'formspree_action' below
-    # - upload the generated site to your server
-    # - test a dummy email yourself
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io endpoint url
-    formspree_action = "https://formspree.io/sample/of/endpoint"
-    contact_form_ajax = false
+# Since this template is static, the contact form uses www.formspree.io as a
+# proxy. The form makes a POST request to their servers to send the actual
+# email. Visitors can send up to a 50 emails each month for free.
+#
+# What you need to do for the setup?
+#
+# - register your account to https://formspree.io/register
+# - login and create new form
+# - set your form's endpoint url under 'formspree_action' below
+# - upload the generated site to your server
+# - test a dummy email yourself
+# - you're done. Happy mailing!
+#
+# Enable the contact form by entering your Formspree.io endpoint url
+formspree_action = "https://formspree.io/sample/of/endpoint"
+contact_form_ajax = false
 
-    # Formspree form supports Google reCAPTCHA Key (type v2).
-    # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
-    #
-    # By default, Formspree use a redirect page for recaptcha widget.
-    # If you use a recaptcha widget in your contact page, you should do next steps.
-    # (if you don't want, skip these steps)
-    #
-    #   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
-    #   2. select reCAPTCHA v2 and checkbox widget type.
-    #   3. remember site key and secret key.
-    #   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
-    #   5. change `enableRecaptchaInContactForm` is to true
-    #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
-    #
-    enableRecaptchaInContactForm = false
-    googleRecaptchaKey = "site_key_for_google_recaptcha"
+# Formspree form supports Google reCAPTCHA Key (type v2).
+# If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
+#
+# By default, Formspree use a redirect page for recaptcha widget.
+# If you use a recaptcha widget in your contact page, you should do next steps.
+# (if you don't want, skip these steps)
+#
+#   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
+#   2. select reCAPTCHA v2 and checkbox widget type.
+#   3. remember site key and secret key.
+#   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
+#   5. change `enableRecaptchaInContactForm` is to true
+#   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
+#
+enableRecaptchaInContactForm = false
+googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = """<p>全系列触控商显整机生产厂家
+about_us = """<p>全系列触控商显整机生产厂家
     <br>产品全 | 款式新 | 技术强 | 质量优 | 服务款
     <br>全球首推-以换代修，30天无理由承诺
     </p>"""
-    copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有 | <a href='https://beian.miit.gov.cn/' target='_blank'>苏ICP备2023026986号</a>"
+copyright = "Copyright © 2018 - 2023 昆山融禾电子科技有限公司 版权所有 | <a href='https://beian.miit.gov.cn/' target='_blank'>苏ICP备2023026986号</a>"
 
-    # Format dates with Go's time formatting
-    date_format = "2006-01-02"
+# Format dates with Go's time formatting
+date_format = "2006-01-02"
 
-    # dropdown 菜单鼠标进入后立即显示
-    dropdown_mouse_over = false
+# dropdown 菜单鼠标进入后立即显示
+dropdown_mouse_over = false
 
-    disabled_logo = false
-    logo_text = "RHMEILIAN"
+disabled_logo = false
+logo_text = "RHMEILIAN"
 
-    logo = "img/logo.jpg"
-    logo_small = "img/logo.jpg"
-    contact_url = "/contact"
-    address = """<p class="text-uppercase">
+logo = "img/logo.jpg"
+logo_small = "img/logo.jpg"
+contact_url = "/contact"
+address = """<p class="text-uppercase">
         联系人：高女士
-        <br>电话: <strong>135 1259 7483</strong>
-        <br>邮箱：2297512580@qq.com
+        <br>电话: <strong>151 9010 7707</strong>
+        <br>邮箱：719485050@qq.com
         <br>地址：昆山市玉山镇前进西路1288号万象汇商业中心2号楼2707室
       </p>
       """
 
 [permalinks]
-    # 博客中文章的URL规则，可以为/blog/2018/05/24/mypost/
-    blog = "/blog/:year/:month/:day/:filename/"
+# 博客中文章的URL规则，可以为/blog/2018/05/24/mypost/
+blog = "/blog/:year/:month/:day/:filename/"
 
 # 是否启用顶层通知栏
 [params.topbar]
-    enable = false
-    text = """<p class="hidden-sm hidden-xs">昆山融禾电子科技有限公司</p>
+enable = false
+text = """<p class="hidden-sm hidden-xs">昆山融禾电子科技有限公司</p>
       <p class="hidden-md hidden-lg">
       <a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
@@ -623,80 +623,80 @@ pluralizelisttitles = false
 
 # 是否启用右侧的小工具
 [params.widgets]
-    categories = true
-    tags = false
-    search = false
+categories = true
+tags = false
+search = false
 
 # Carousel轮播
 # 轮播内容位于 data/carousel 中
 [params.carouselCustomers]
-    items = 6
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
+items = 6
+auto_play = false
+slide_speed = 2000
+pagination_speed = 1000
 
 [params.carouselTestimonials]
-    items = 4
-    auto_play = false
-    slide_speed = 2000
-    pagination_speed = 1000
+items = 4
+auto_play = false
+slide_speed = 2000
+pagination_speed = 1000
 
 [params.carouselHomepage]
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more information take a look at the README.
-    enable = true
-    auto_play = true
-    slide_speed = 2000
-    pagination_speed = 1000
+# All carousel items are defined in their own files. You can find example items
+# at 'exampleSite/data/carousel'.
+# For more information take a look at the README.
+enable = true
+auto_play = true
+slide_speed = 2000
+pagination_speed = 1000
 
 [params.goods]
-    enable = true
-    cols = 4
-    title = "我们的产品"
-    subtitle = ""
+enable = true
+cols = 4
+title = "我们的产品"
+subtitle = ""
 
 [params.features]
-    enable = false
-    cols = 3 # Default: 3, Available values 2,3,4,6
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more information take a look at the README.
+enable = false
+cols = 3       # Default: 3, Available values 2,3,4,6
+# All features are defined in their own files. You can find example items
+# at 'exampleSite/data/features'.
+# For more information take a look at the README.
 
 [params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+enable = false
+# All testimonials are defined in their own files. You can find example items
+# at 'exampleSite/data/testimonials'.
+# For more information take a look at the README.
+title = "Testimonials"
+subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
-    icon = "far fa-file-alt"
-    title = ""
-    subtitle = ""
-    link_url = "/product"
-    link_text = "查看更多产品"
+enable = true
+icon = "far fa-file-alt"
+title = ""
+subtitle = ""
+link_url = "/product"
+link_text = "查看更多产品"
 
 [params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more information take a look at the README.
-    title = "我们的合作伙伴"
-    subtitle = ""
+enable = true
+# All clients are defined in their own files. You can find example items
+# at 'exampleSite/data/clients'.
+# For more information take a look at the README.
+title = "我们的合作伙伴"
+subtitle = ""
 
 [params.recent_posts]
-    enable = false
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-    hide_summary = false
+enable = false
+title = "From our blog"
+subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+hide_summary = false
 
 [params.footer.recent_posts]
-    enable = false
+enable = false
 
 [taxonomies]
-    category = "categories"
-    tag = "tags"
-    author = "authors"
+category = "categories"
+tag = "tags"
+author = "authors"
